@@ -4,4 +4,4 @@
 
 const num = parseInt(process.argv[2]);
 
-num ? console.log("My number: " + num) : console.log("Not a number");
+isNaN(num) ? console.log("Not a number") : console.log("My number: " + num);
