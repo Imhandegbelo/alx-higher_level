@@ -1,0 +1,7 @@
+#!/usr/bin/node
+
+// Creates a new array from a file
+const list = require("./100-data.js").list;
+let newList = list.map( (element, index) => element * index);
+console.log(list);
+console.log(newList);
