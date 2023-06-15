@@ -1,5 +1,6 @@
 #!/usr/bin/node
 
-console.log('C is fun');
-console.log('Python is cool');
-console.log('Javascript is amazing');
+let first = "C is fun";
+let second = "Python is cool";
+let third = "Javascript is amazing";
+console.log(first+ "\n"+second+ "\n"+ third);
